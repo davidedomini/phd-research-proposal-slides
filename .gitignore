@@ -1,9 +1,9 @@
-.DS_Store
 *.aux
 *.bbl
 *.blg
 *.log
 *.out
+latex.pdf
 *.synctex.gz
 *.toc
 .idea/
@@ -16,8 +16,5 @@ _minted*/
 *.snm
 *.vrb
 build/
+.DS_Store
 main.pdf
-*.fls
-*.fdb_latexmk
-*.bcf
-*.run.xml

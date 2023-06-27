@@ -1,47 +1,140 @@
-\documentclass{scrartcl}
-
-\usepackage[utf8]{inputenc}
-\usepackage{hyperref}
-\usepackage{url}
-\usepackage{graphicx}
-\usepackage{amssymb}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% AMS Beamer series / Bologna FC / Template
+% Andrea Omicini
+% Alma Mater Studiorum - Università di Bologna
+% mailto:andrea.omicini@unibo.it
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\documentclass[handout]{beamer}\mode<handout>{\usetheme{default}}
+%
+\documentclass[presentation]{beamer}\mode<presentation>{\usetheme{AMSBolognaFC}}
+%\documentclass[handout]{beamer}\mode<handout>{\usetheme{AMSBolognaFC}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage[T1]{fontenc}
-\usepackage{blkarray}
-\usepackage{caption}
-\usepackage{subcaption}
-\usepackage{biblatex}
-\addbibresource{bibliography.bib} 
+\usepackage{wasysym}
+\usepackage{amsmath,blkarray}
+\usepackage{centernot}
+\usepackage{fontawesome}
+\usepackage{fancyvrb}
+\usepackage[ddmmyyyy]{datetime}
+\renewcommand{\dateseparator}{}
+%\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+\newcommand{\version}{1}
+\usepackage[
+	backend=biber,
+	citestyle=authoryear-icomp,
+	maxcitenames=1,
+	bibstyle=alphabetic]{biblatex}
 
+	\makeatletter
 
-\newcommand{\emailaddr}[1]{\href{mailto:#1}{\texttt{#1}}}
+\addbibresource{bibliography.bib}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\title[]
+{Hybrid AI-based engineering of cyber-physical swarms}
+%
+\subtitle[Research Project Proposal]
+{Research Project Proposal}
+%
+\author[\sspeaker{Domini}]
+{\speaker{Davide Domini} \href{mailto:davide.domini@studio.unibo.it}{davide.domini@studio.unibo.it}}
+%
+\institute[DISI, Univ.\ Bologna]
+{Department of Computer Science and Engineering - DISI\\\textsc{Alma Mater Studiorum} -- University of Bologna
+\\[0.5cm]
+\textbf{Ph.D. Programme in Computer Science And Engineering \\ Admission XXXIX Cycle}}
 
-
-\title{TITLE
-\\
-SUBTITLE
-\\
-\begin{small} 
-  Report finale per il corso di ???  - 
-  LM Ingegneria e Scienze Informatiche
-\end{small}
-}
-\author{
-    \emailaddr{author1@studio.unibo.it}
-    \and
-    \emailaddr{author2@studio.unibo.it}
-}
-\date{\today}
-
+%
+\renewcommand{\dateseparator}{/}
+\date[\today]{\today}
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\maketitle
+%/////////
+\frame{\titlepage}
+%/////////
 
-\newpage
+%%===============================================================================
+\section*{Outline}
+%%===============================================================================
 
-\addcontentsline{toc}{section}{Bibliography}
-%\bibliographystyle{unsrt}
-%\bibliography{bibliografia}
-\printbibliography %Prints bibliography
+%%/////////
+\frame[c]{\tableofcontents[hideallsubsections]}
+%%/////////
+
+%===============================================================================
+\section{Introduction}
+%===============================================================================
+
+%/////////
+\begin{frame}[c]{Introduction}
+%/////////
+
+\end{frame}
+%/////////
 
 
+%===============================================================================
+\section{State of the art}
+%===============================================================================
+
+%/////////
+\begin{frame}[c]{State of the art}
+%/////////
+
+\end{frame}
+%/////////
+
+%===============================================================================
+\section{Project description}
+%===============================================================================
+
+%/////////
+\begin{frame}[c]{Activities}
+
+	
+\end{frame}
+%/////////
+
+%/////////
+\begin{frame}[c]{Scope}
+
+\end{frame}
+%/////////
+
+
+%/////////
+\begin{frame}[c]{Expected results}
+
+\end{frame}
+%/////////
+
+
+
+%===============================================================================
+\section*{}
+%===============================================================================
+
+%/////////
+\frame{\titlepage}
+%/////////
+
+%===============================================================================
+\section*{\refname}
+%===============================================================================
+
+%%%%
+\setbeamertemplate{page number in head/foot}{}
+%/////////
+\begin{frame}[c,noframenumbering, allowframebreaks]{\refname}
+%\begin{frame}[t,allowframebreaks,noframenumbering]{\refname}
+	\tiny
+	\nocite{*}
+	\printbibliography
+\end{frame}
+%/////////
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \end{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
