@@ -21,7 +21,7 @@
 \newcommand{\version}{1}
 \usepackage[
 	backend=biber,
-	citestyle=authoryear-icomp,
+	%citestyle=authoryear-icomp,
 	maxcitenames=1,
 	bibstyle=alphabetic]{biblatex}
 
@@ -68,8 +68,32 @@
 %===============================================================================
 
 %/////////
-\begin{frame}[c]{Introduction}
+\begin{frame}[allowframebreaks]{Introduction}
 %/////////
+
+\begin{alertblock}{Cyber-Physical Swarms (CPSW)}
+	\begin{itemize}
+		\item A myriad devices that interact with the environment and exchange information 
+			among themselves;
+		%\item Focus on properties like self-organization %\cite{schmeck2011organic}
+		%	 and collective intelligence;%\cite{tumer2004survey};
+		\item A wide range of applied domains, including: smart cities \cite{zedadra2019swarm}, 
+			swarm robotics \cite{brambilla2013swarm}, 
+			large-scale IoT systems \cite{uslu2023role}, and more.
+	\end{itemize}
+\end{alertblock}
+
+\begin{alertblock}{Engineering approaches}
+	\begin{itemize}
+		\item Macro-programming: manually developing controllers 
+			from a global perspective (e.g., \emph{Aggregate Computing} \cite {viroli2018field});
+		\item AI: learn directly from experience and/or data 
+			(e.g., \emph{Multi-Agent Reinforcement Learning} \cite{4445757} and 
+			\emph{Graph Neural Networks} \cite{9046288}).
+		\item Open space for \emph{hybrid approaches}.
+	\end{itemize}
+\end{alertblock}
+
 
 \end{frame}
 %/////////
