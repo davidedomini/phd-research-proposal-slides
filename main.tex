@@ -152,9 +152,54 @@
 %/////////
 
 %/////////
-\begin{frame}[c]{Learning from experience}
+\begin{frame}[allowframebreaks]{Learning from experience}
 %/////////
-	
+\begin{block}{Reinforcement learning}
+	\begin{itemize}
+		\item An \emph{agent} interacts with an \emph{environment} through \emph{actions};
+		\item The environment provides a feedback signal (i.e., the \emph{reward});
+		\item Agent goal: learn the optimal \emph{policy} to maximize some long-run measure of reinforcement.
+	\end{itemize}
+\end{block}
+
+\centering
+\includegraphics[width=0.6\textwidth]{img/rl.png}
+
+\begin{alertblock}{Algorithms}
+	\begin{itemize}
+		\item \textbf{Value-based}: aim to learn a value function that evaluates the goodness of each possible action from every 
+				state in the environment (e.g., \emph{Q-Learning} \cite{dayan1992q}, \emph{DQN} \cite{mnih2013playing});
+		\item \textbf{Policy-based}: aim to directly learn a behavioural policy (i.e., a state-action mapping) without
+			utilizing an intermediate value function (e.g., \emph{Proximal Policy Optimization (PPO)} \cite{schulman2017proximal}).
+	\end{itemize}
+\end{alertblock}
+
+\begin{alertblock}{Multi-Agent Reinforcement Learning}
+	\begin{itemize}
+		\item Extension of classic RL to multi-agent systems;
+		\item Very promising field, but it introduces several challenges that need to be addressed, for example:
+			 non-stationarity and equilibrium among the various policies.
+	\end{itemize}
+\end{alertblock}
+
+\begin{alertblock}{Training mode}
+	Based on information available to agents during training and execution phases we can classify 
+		MARL algorithms into three families:
+	\begin{itemize}
+		\item Centralized Training and Centralized Execution (CTCE);
+		\item Decentralized Training and Decentralized Execution (DTDE);
+		\item Centralized Training and Decentralized Execution (CTDE).
+	\end{itemize}
+\end{alertblock}
+
+\begin{alertblock}{Tasks}
+	\begin{itemize}
+		\item \textbf{Cooperative}: agents cooperate to maximize a global reward (we focus on this);
+		\item Competitive: agents compete to maximize their own reward.
+		\item Mixed: agents cooperate and compete at the same time.
+	\end{itemize}
+\end{alertblock}
+
 \end{frame}
 %/////////
 
