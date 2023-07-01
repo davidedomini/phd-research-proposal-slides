@@ -71,7 +71,7 @@
 \begin{frame}[allowframebreaks]{Introduction}
 %/////////
 
-\begin{alertblock}{Cyber-Physical Swarms (CPSW)}
+\begin{block}{Cyber-Physical Swarms (CPSW)}
 	\begin{itemize}
 		\item A myriad devices that interact with the environment and exchange information 
 			among themselves;
@@ -81,7 +81,7 @@
 			swarm robotics \cite{brambilla2013swarm}, 
 			large-scale IoT systems \cite{uslu2023role}, and more.
 	\end{itemize}
-\end{alertblock}
+\end{block}
 
 \begin{alertblock}{Engineering approaches}
 	\begin{itemize}
@@ -94,7 +94,6 @@
 	\end{itemize}
 \end{alertblock}
 
-
 \end{frame}
 %/////////
 
@@ -104,9 +103,51 @@
 %===============================================================================
 
 %/////////
-\begin{frame}[c]{Aggregate computing}
+\begin{frame}[allowframebreaks]{Aggregate computing}
 %/////////
+\begin{columns}
+\begin{column}{0.55\textwidth}
+	\begin{block}{Overview}
+		\begin{itemize}
+			\item \emph{Computational fields} \cite{mamei2004cofields, viroli2019distributed} as first-class abstractions
+			\item Programs as field transformations through \emph{field calculus} \cite{viroli2016higher}
+		\end{itemize}
+	\end{block}
+\end{column}
+\begin{column}{0.45\textwidth}
+\includegraphics[width=\textwidth]{img/ac.png}
+\end{column}
+\end{columns}
 
+\centering
+\begin{alertblock}{Computational model}
+\begin{itemize}
+	\item Each node shares the same \emph{aggregate program}
+	\item Each node execute rounds iteratively and asynchronously:
+	\begin{enumerate}
+		\item \textbf{Context building}: collect information from the neighborhood and sensors
+		\item \textbf{Program execution}: execute the aggregate program on the context
+		\item \textbf{Export sharing}: share the export with the neighborhood
+	\end{enumerate}
+\end{itemize}
+\end{alertblock}
+
+\begin{alertblock}{Advantages}
+	\begin{itemize}
+		\item Programs defined in a \emph{composable} and \emph{declarative} manner;
+		\item Promotes the reuse of behaviours;
+		\item Low-level aspects (e.g., failures) are automatically handled by the middleware;
+		\item A reliable and efficient Scala implementation: \emph{ScaFi} \cite{casadei2022scafi}
+		\begin{itemize}
+			\item A \emph{domain specific language (DSL)} for specifying aggregate computation;
+			\item A \emph{simulation environment}, through the Alchemist simulator \cite{alchemist};
+			\item A \emph{middleware} for executing and deploying aggregate programs;
+			\item Reusable \emph{library functionalities} that serve as building blocks for constructing new aggregate
+			programs (e.g., Gradients).
+		\end{itemize}
+	\end{itemize}
+\end{alertblock}
+	
 \end{frame}
 %/////////
 

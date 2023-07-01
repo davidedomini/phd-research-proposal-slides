@@ -2350,13 +2350,23 @@
     <bcf:citekey order="4">viroli2018field</bcf:citekey>
     <bcf:citekey order="5">4445757</bcf:citekey>
     <bcf:citekey order="6">9046288</bcf:citekey>
+    <bcf:citekey order="7">mamei2004cofields</bcf:citekey>
+    <bcf:citekey order="7">viroli2019distributed</bcf:citekey>
+    <bcf:citekey order="8">viroli2016higher</bcf:citekey>
+    <bcf:citekey order="9">casadei2022scafi</bcf:citekey>
+    <bcf:citekey order="10">alchemist</bcf:citekey>
     <bcf:citekey order="0" nocite="1">*</bcf:citekey>
-    <bcf:citekey order="7">zedadra2019swarm</bcf:citekey>
-    <bcf:citekey order="8">brambilla2013swarm</bcf:citekey>
-    <bcf:citekey order="9">uslu2023role</bcf:citekey>
-    <bcf:citekey order="10">viroli2018field</bcf:citekey>
-    <bcf:citekey order="11">4445757</bcf:citekey>
-    <bcf:citekey order="12">9046288</bcf:citekey>
+    <bcf:citekey order="11">zedadra2019swarm</bcf:citekey>
+    <bcf:citekey order="12">brambilla2013swarm</bcf:citekey>
+    <bcf:citekey order="13">uslu2023role</bcf:citekey>
+    <bcf:citekey order="14">viroli2018field</bcf:citekey>
+    <bcf:citekey order="15">4445757</bcf:citekey>
+    <bcf:citekey order="16">9046288</bcf:citekey>
+    <bcf:citekey order="17">mamei2004cofields</bcf:citekey>
+    <bcf:citekey order="18">viroli2019distributed</bcf:citekey>
+    <bcf:citekey order="19">viroli2016higher</bcf:citekey>
+    <bcf:citekey order="20">casadei2022scafi</bcf:citekey>
+    <bcf:citekey order="21">alchemist</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="anyt">
