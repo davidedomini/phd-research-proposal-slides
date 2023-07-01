@@ -1570,6 +1570,11 @@ INPUT img/rl.png
 INPUT ./img/rl.png
 INPUT ./img/rl.png
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/jknappen/ec/ecsx1095.tfm
+INPUT ./img/gnn.png
+INPUT ./img/gnn.png
+INPUT img/gnn.png
+INPUT ./img/gnn.png
+INPUT ./img/gnn.png
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/base/t1cmtt.fd
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/base/t1cmtt.fd
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/base/t1cmtt.fd

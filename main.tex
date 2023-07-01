@@ -204,8 +204,52 @@
 %/////////
 
 %/////////
-\begin{frame}[c]{Graph Neural Networks}
+\begin{frame}[allowframebreaks]{Graph Neural Networks}
 %/////////
+
+\begin{block}{Why}
+	\begin{itemize}
+		\item Nowdays data represented as \emph{graphs} are ubiquitous 
+			(e.g., social networks, biological networks, etc.);
+		\item \emph{Computational fields} can also be seen as graphs;
+		\item This model can be distributed across various nodes and applied to each of them, 
+			as it only applies local transformations.
+	\end{itemize}
+\end{block}
+
+\begin{columns}
+	\begin{column}{0.5\textwidth}
+		\begin{alertblock}{Many types of tasks}
+			\begin{itemize}
+				\item Node classification/regression;
+				\item Edge classification/regression;
+				\item Graph classification/regression;
+				\item Node embeddings;
+			\end{itemize}
+		\end{alertblock}
+	\end{column}
+	\begin{column}{0.5\textwidth}
+		\includegraphics[width=\textwidth]{img/gnn.png}
+	\end{column}
+\end{columns}
+
+
+\begin{alertblock}{Computational model}
+	\begin{itemize}
+		\item There exists multiple variants of GNNs, but they all share the same basic structure composed of two phases;
+		\item \textbf{Aggregate}
+		\begin{itemize}
+			\item Aggregation of information from neighbours;
+			\item Usually, it is a simple function that performs a graph convolution on the neighbours;
+		\end{itemize}
+		\item \textbf{Combine}
+		\begin{itemize}
+			\item Combination of the aggregated information with the information present in the 
+				node at the previous time step;
+			\item Usually, it is a a differentiable complex function, such as a layer of a neural network.
+		\end{itemize}
+	\end{itemize}
+\end{alertblock}
 	
 \end{frame}
 %/////////
