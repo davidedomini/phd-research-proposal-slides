@@ -1,12 +1,12 @@
 # Fdb version 3
-["biber main"] 1687989578 "main.bcf" "main.bbl" "main" 1687989632
+["biber main"] 1687989578 "main.bcf" "main.bbl" "main" 1688217023
   "bibliography.bib" 1687989447 2955 96920d3d34d34758f967c88cfc2fed9a ""
-  "main.bcf" 1687989632 107799 4d314c49adf2ebaa50a546c4fe59fbfb "pdflatex"
+  "main.bcf" 1688217023 107799 4d314c49adf2ebaa50a546c4fe59fbfb "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1687989630 "/Users/davidedomini/Desktop/phd-research-proposal-slides/main.tex" "main.pdf" "main" 1687989632
-  "/Users/davidedomini/Desktop/phd-research-proposal-slides/main.tex" 1687989629 4955 bdc750086b789a2f853840e016cf9e39 ""
+["pdflatex"] 1688217022 "/Users/davidedomini/Desktop/phd-research-proposal-slides/main.tex" "main.pdf" "main" 1688217023
+  "/Users/davidedomini/Desktop/phd-research-proposal-slides/main.tex" 1688217020 5139 4fa4e4093db142868bf3c6dfda6b157c ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/jknappen/ec/ecsi0600.tfm" 1136768653 3584 812f7e2de5681b983f3aeaadd29c79b6 ""
@@ -252,13 +252,13 @@
   "beamercolorthemebolognafc.sty" 1687852440 1573 ca1116497af205d13038f9f66f74a5b3 ""
   "beamerthemeAMSBolognaFC.sty" 1687852440 3248 a2d01cf767dc3d97041b11d2d3d586c4 ""
   "img/almacesena-background.pdf" 1687852440 261848 56839c668cfb36560d179960fe346899 ""
-  "main.aux" 1687989632 5079 021e14be259e7bd315e43afc897b6cec "pdflatex"
+  "main.aux" 1688217023 5352 338bf7068057cea759221697c97497bf "pdflatex"
   "main.bbl" 1687989579 14498 99095aab8c7b4556701bb3640a1d56ba "biber main"
-  "main.nav" 1687989632 2224 1c222f670497a9157be324b7c8bd6cf3 "pdflatex"
-  "main.out" 1687989632 675 d523c30838351b98c08ca4b211629acc "pdflatex"
-  "main.run.xml" 1687989632 2310 47e67dca11311fb26308920abbf39815 "pdflatex"
-  "main.tex" 1687989629 4955 bdc750086b789a2f853840e016cf9e39 ""
-  "main.toc" 1687989632 155 14689d3231ee5e66fcab35507340bbf2 "pdflatex"
+  "main.nav" 1688217023 2425 6897d3938d5accc430efcd039b333a9c "pdflatex"
+  "main.out" 1688217023 675 d523c30838351b98c08ca4b211629acc "pdflatex"
+  "main.run.xml" 1688217023 2310 47e67dca11311fb26308920abbf39815 "pdflatex"
+  "main.tex" 1688217020 5139 4fa4e4093db142868bf3c6dfda6b157c ""
+  "main.toc" 1688217023 155 774f64ca03fbc9317fec7102dc4c287e "pdflatex"
   (generated)
   "main.aux"
   "main.bcf"
