@@ -1,12 +1,12 @@
 # Fdb version 3
-["biber main"] 1688229431 "main.bcf" "main.bbl" "main" 1688229566
+["biber main"] 1688312816 "main.bcf" "main.bbl" "main" 1688313414
   "bibliography.bib" 1688224887 5465 66ae259d26cffba2dd040b19c66a038c ""
-  "main.bcf" 1688229566 108734 46f53f1fabcb7cf4456ad39aa462d027 "pdflatex"
+  "main.bcf" 1688313414 108734 46f53f1fabcb7cf4456ad39aa462d027 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1688229563 "/Users/davidedomini/Desktop/phd-research-proposal-slides/main.tex" "main.pdf" "main" 1688229566
-  "/Users/davidedomini/Desktop/phd-research-proposal-slides/main.tex" 1688229563 10441 81d3d05971bbbe353258b5e8aaad9b8c ""
+["pdflatex"] 1688313412 "/Users/davidedomini/Desktop/phd-research-proposal-slides/main.tex" "main.pdf" "main" 1688313414
+  "/Users/davidedomini/Desktop/phd-research-proposal-slides/main.tex" 1688313412 11150 5db519ca95b8234dc03e1b2f4f02819e ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/jknappen/ec/ecsi0600.tfm" 1136768653 3584 812f7e2de5681b983f3aeaadd29c79b6 ""
@@ -263,13 +263,13 @@
   "img/almacesena-background.pdf" 1687852440 261848 56839c668cfb36560d179960fe346899 ""
   "img/gnn.png" 1688228171 466537 fc516b205b722b8772c5985263846ebb ""
   "img/rl.png" 1688222682 150020 9f537bd2e2a12312133d99f1f88dba33 ""
-  "main.aux" 1688229566 7379 46571d4956ac819cecc7cb932a95a8a4 "pdflatex"
-  "main.bbl" 1688229433 29519 8ba317b0acae8d84fc3ba7692eee5ce1 "biber main"
-  "main.nav" 1688229566 2982 e2585a83a8560b3d74f5c6143c5d40ea "pdflatex"
-  "main.out" 1688229566 675 d523c30838351b98c08ca4b211629acc "pdflatex"
-  "main.run.xml" 1688229566 2310 47e67dca11311fb26308920abbf39815 "pdflatex"
-  "main.tex" 1688229563 10441 81d3d05971bbbe353258b5e8aaad9b8c ""
-  "main.toc" 1688229566 156 357e411b095b13a199a0ac59b871fb4b "pdflatex"
+  "main.aux" 1688313414 7507 7219b530417df285441902ddb8f14dd4 "pdflatex"
+  "main.bbl" 1688312817 29519 8ba317b0acae8d84fc3ba7692eee5ce1 "biber main"
+  "main.nav" 1688313414 3074 8984ec8a658fdae9539cc6844819a98c "pdflatex"
+  "main.out" 1688313414 675 d523c30838351b98c08ca4b211629acc "pdflatex"
+  "main.run.xml" 1688313414 2310 47e67dca11311fb26308920abbf39815 "pdflatex"
+  "main.tex" 1688313412 11150 5db519ca95b8234dc03e1b2f4f02819e ""
+  "main.toc" 1688313414 156 357e411b095b13a199a0ac59b871fb4b "pdflatex"
   (generated)
   "main.aux"
   "main.bcf"

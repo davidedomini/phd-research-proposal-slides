@@ -125,9 +125,9 @@
 	\item Each node shares the same \emph{aggregate program}
 	\item Each node execute rounds iteratively and asynchronously:
 	\begin{enumerate}
-		\item \textbf{Context building}: collect information from the neighborhood and sensors
-		\item \textbf{Program execution}: execute the aggregate program on the context
-		\item \textbf{Export sharing}: share the export with the neighborhood
+		\item \textbf{Sense}: collect information from the neighborhood and sensors
+		\item \textbf{Compute}: execute the aggregate program on the context
+		\item \textbf{Act}: share the export with the neighborhood
 	\end{enumerate}
 \end{itemize}
 \end{alertblock}
@@ -210,7 +210,7 @@
 \begin{block}{Why}
 	\begin{itemize}
 		\item Nowdays data represented as \emph{graphs} are ubiquitous 
-			(e.g., social networks, biological networks, etc.);
+			(e.g., social networks, molecules in chemistryDa, etc.);
 		\item \emph{Computational fields} can also be seen as graphs;
 		\item This model can be distributed across various nodes and applied to each of them, 
 			as it only applies local transformations.
@@ -259,6 +259,36 @@
 %===============================================================================
 \section{Project description}
 %===============================================================================
+
+%/////////
+\begin{frame}[allowframebreaks]{Project description}
+
+\begin{block}{Problems}
+	\begin{itemize}
+		\item CPSW \emph{coordination} to perform complex tasks, manually developing controllers 
+			has some drawbacks:
+		\begin{itemize}
+			\item It is highly challenging to write satisfactory and efficient programs;
+			\item Programs may be error-prone;
+			\item Programs may lack of generality;
+		\end{itemize}
+		\item AI approaches also present challenges, for example:
+		\begin{itemize}
+			\item Non-stationarity;
+			\item Communication;
+			\item Scalability.
+		\end{itemize}
+	\end{itemize}
+\end{block}
+	
+\begin{alertblock}{Proposed approach}
+	\begin{itemize}
+		\item TODO
+	\end{itemize}
+\end{alertblock}
+
+\end{frame}
+%/////////
 
 %/////////
 \begin{frame}[c]{Activities}
