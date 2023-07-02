@@ -2358,21 +2358,23 @@
     <bcf:citekey order="11">dayan1992q</bcf:citekey>
     <bcf:citekey order="12">mnih2013playing</bcf:citekey>
     <bcf:citekey order="13">schulman2017proximal</bcf:citekey>
+    <bcf:citekey order="14">scarlib</bcf:citekey>
     <bcf:citekey order="0" nocite="1">*</bcf:citekey>
-    <bcf:citekey order="14">zedadra2019swarm</bcf:citekey>
-    <bcf:citekey order="15">brambilla2013swarm</bcf:citekey>
-    <bcf:citekey order="16">uslu2023role</bcf:citekey>
-    <bcf:citekey order="17">viroli2018field</bcf:citekey>
-    <bcf:citekey order="18">4445757</bcf:citekey>
-    <bcf:citekey order="19">9046288</bcf:citekey>
-    <bcf:citekey order="20">mamei2004cofields</bcf:citekey>
-    <bcf:citekey order="21">viroli2019distributed</bcf:citekey>
-    <bcf:citekey order="22">viroli2016higher</bcf:citekey>
-    <bcf:citekey order="23">casadei2022scafi</bcf:citekey>
-    <bcf:citekey order="24">alchemist</bcf:citekey>
-    <bcf:citekey order="25">dayan1992q</bcf:citekey>
-    <bcf:citekey order="26">mnih2013playing</bcf:citekey>
-    <bcf:citekey order="27">schulman2017proximal</bcf:citekey>
+    <bcf:citekey order="15">zedadra2019swarm</bcf:citekey>
+    <bcf:citekey order="16">brambilla2013swarm</bcf:citekey>
+    <bcf:citekey order="17">uslu2023role</bcf:citekey>
+    <bcf:citekey order="18">viroli2018field</bcf:citekey>
+    <bcf:citekey order="19">4445757</bcf:citekey>
+    <bcf:citekey order="20">9046288</bcf:citekey>
+    <bcf:citekey order="21">mamei2004cofields</bcf:citekey>
+    <bcf:citekey order="22">viroli2019distributed</bcf:citekey>
+    <bcf:citekey order="23">viroli2016higher</bcf:citekey>
+    <bcf:citekey order="24">casadei2022scafi</bcf:citekey>
+    <bcf:citekey order="25">alchemist</bcf:citekey>
+    <bcf:citekey order="26">dayan1992q</bcf:citekey>
+    <bcf:citekey order="27">mnih2013playing</bcf:citekey>
+    <bcf:citekey order="28">schulman2017proximal</bcf:citekey>
+    <bcf:citekey order="29">scarlib</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="anyt">
