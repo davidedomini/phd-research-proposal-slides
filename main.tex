@@ -16,6 +16,7 @@
 \usepackage{fontawesome}
 \usepackage{fancyvrb}
 \usepackage[ddmmyyyy]{datetime}
+\usepackage{comment}
 \renewcommand{\dateseparator}{}
 %\renewcommand{\thefootnote}{\fnsymbol{footnote}}
 \newcommand{\version}{1}
@@ -75,8 +76,6 @@
 	\begin{itemize}
 		\item A myriad devices that \emph{interact} with the environment and \emph{exchange} information 
 			among themselves;
-		%\item Focus on properties like self-organization %\cite{schmeck2011organic}
-		%	 and collective intelligence;%\cite{tumer2004survey};
 		\item A wide range of applied domains, including: smart cities \cite{zedadra2019swarm}, 
 			swarm robotics \cite{brambilla2013swarm}, 
 			large-scale IoT systems \cite{uslu2023role}, and more.
@@ -101,6 +100,8 @@
 %===============================================================================
 \section{State of the art}
 %===============================================================================
+\begin{comment}
+
 
 %/////////
 \begin{frame}[allowframebreaks]{Aggregate computing}
@@ -150,7 +151,18 @@
 
 \end{frame}
 %/////////
+\end{comment}
 
+%/////////
+\begin{frame}[allowframebreaks]{Aggregate computing}
+%/////////
+
+
+
+\end{frame}
+%/////////
+
+\begin{comment}
 %/////////
 \begin{frame}[allowframebreaks]{Learning from experience}
 %/////////
@@ -199,6 +211,39 @@
 		\item Mixed: agents cooperate and compete at the same time.
 	\end{itemize}
 \end{alertblock}
+
+\end{frame}
+%/////////
+\end{comment}
+
+%/////////
+\begin{frame}[allowframebreaks]{Learning from experience}
+%/////////
+
+\begin{block}{Reinforcement learning}
+	\begin{itemize}
+		\item An \emph{agent} interacts with an \emph{environment} through \emph{actions};
+		\item The environment provides a feedback signal (i.e., the \emph{reward});
+		\item Agent goal: learn the optimal \emph{policy} to maximize some long-run measure of reinforcement.
+	\end{itemize}
+\end{block}
+
+
+\begin{columns}
+	\begin{column}{0.5\textwidth}
+		\begin{alertblock}{Multi-Agent RL}
+			\begin{itemize}
+				\item Extension of classic RL to \emph{multi-agent systems};
+				\item Very promising field;
+				\item Several challenges need to be addressed (e.g., equilibrium).
+			\end{itemize}
+		\end{alertblock}
+	\end{column}
+	\begin{column}{0.5\textwidth}
+		\includegraphics[width=\textwidth]{img/rl.png}
+	\end{column}
+\end{columns}
+
 
 \end{frame}
 %/////////
