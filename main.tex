@@ -100,124 +100,146 @@
 %===============================================================================
 \section{State of the art}
 %===============================================================================
-\begin{comment}
+
+% %/////////
+% \begin{frame}[allowframebreaks]{Aggregate computing}
+% %/////////
+% \begin{columns}
+% \begin{column}{0.55\textwidth}
+% 	\begin{block}{Overview}
+% 		\begin{itemize}
+% 			\item \emph{Computational fields} \cite{mamei2004cofields, viroli2019distributed} as first-class abstractions;
+% 			\item Programs as field transformations through \emph{field calculus} \cite{viroli2016higher}.
+% 		\end{itemize}
+% 	\end{block}
+% \end{column}
+% \begin{column}{0.45\textwidth}
+% \includegraphics[width=\textwidth]{img/ac.png}
+% \end{column}
+% \end{columns}
+
+% \centering
+% \begin{alertblock}{Computational model}
+% \begin{itemize}
+% 	\item Each node shares the same \emph{aggregate program};
+% 	\item Each node execute rounds iteratively and asynchronously:
+% 	\begin{enumerate}
+% 		\item \textbf{Sense}: collect information from the neighborhood and sensors;
+% 		\item \textbf{Compute}: execute the aggregate program on the context;
+% 		\item \textbf{Act}: share the export with the neighborhood.
+% 	\end{enumerate}
+% \end{itemize}
+% \end{alertblock}
+
+% \begin{alertblock}{Advantages}
+% 	\begin{itemize}
+% 		\item Programs defined in a \emph{composable} and \emph{declarative} manner;
+% 		\item Promotes the \emph{reuse} of behaviours;
+% 		\item Low-level aspects (e.g., failures) are \emph{automatically handled} by the middleware;
+% 		\item A reliable and efficient Scala implementation: \emph{ScaFi} \cite{casadei2022scafi}
+% 		\begin{itemize}
+% 			\item A \emph{domain specific language (DSL)} for specifying aggregate computation;
+% 			\item A \emph{simulation environment}, through the Alchemist simulator \cite{alchemist};
+% 			\item A \emph{middleware} for executing and deploying aggregate programs;
+% 			\item Reusable \emph{library functionalities} that serve as building blocks for constructing new aggregate
+% 			programs (e.g., Gradients).
+% 		\end{itemize}
+% 	\end{itemize}
+% \end{alertblock}
+
+% \end{frame}
+%/////////
 
 
 %/////////
-\begin{frame}[allowframebreaks]{Aggregate computing}
+\begin{frame}[c]{Aggregate computing}
 %/////////
 \begin{columns}
-\begin{column}{0.55\textwidth}
-	\begin{block}{Overview}
-		\begin{itemize}
-			\item \emph{Computational fields} \cite{mamei2004cofields, viroli2019distributed} as first-class abstractions;
-			\item Programs as field transformations through \emph{field calculus} \cite{viroli2016higher}.
-		\end{itemize}
-	\end{block}
-\end{column}
-\begin{column}{0.45\textwidth}
-\includegraphics[width=\textwidth]{img/ac.png}
-\end{column}
+	\begin{column}{0.55\textwidth}
+		\begin{block}{Overview}
+			\begin{itemize}
+				\item \emph{Motto}: program the aggregate, not individual devices;
+				\item \emph{Computational fields} \cite{mamei2004cofields, viroli2019distributed} as first-class abstractions;
+				\item Programs as field transformations through \emph{field calculus} \cite{viroli2016higher}.
+			\end{itemize}
+		\end{block}
+	\end{column}
+	\begin{column}{0.45\textwidth}
+	\includegraphics[width=\textwidth]{img/ac.png}
+	\end{column}
 \end{columns}
-
+	
 \centering
-\begin{alertblock}{Computational model}
-\begin{itemize}
-	\item Each node shares the same \emph{aggregate program};
-	\item Each node execute rounds iteratively and asynchronously:
-	\begin{enumerate}
-		\item \textbf{Sense}: collect information from the neighborhood and sensors;
-		\item \textbf{Compute}: execute the aggregate program on the context;
-		\item \textbf{Act}: share the export with the neighborhood.
-	\end{enumerate}
-\end{itemize}
-\end{alertblock}
 
 \begin{alertblock}{Advantages}
-	\begin{itemize}
-		\item Programs defined in a \emph{composable} and \emph{declarative} manner;
-		\item Promotes the \emph{reuse} of behaviours;
-		\item Low-level aspects (e.g., failures) are \emph{automatically handled} by the middleware;
-		\item A reliable and efficient Scala implementation: \emph{ScaFi} \cite{casadei2022scafi}
-		\begin{itemize}
-			\item A \emph{domain specific language (DSL)} for specifying aggregate computation;
-			\item A \emph{simulation environment}, through the Alchemist simulator \cite{alchemist};
-			\item A \emph{middleware} for executing and deploying aggregate programs;
-			\item Reusable \emph{library functionalities} that serve as building blocks for constructing new aggregate
-			programs (e.g., Gradients).
-		\end{itemize}
-	\end{itemize}
+	 	\begin{itemize}
+	 		\item Programs defined in a \emph{composable} and \emph{declarative} manner;
+	 		\item Promotes the \emph{reuse} of behaviours;
+	 		\item Low-level aspects (e.g., failures) are \emph{automatically handled} by the middleware;
+	 	\end{itemize}
 \end{alertblock}
-
-\end{frame}
-%/////////
-\end{comment}
-
-%/////////
-\begin{frame}[allowframebreaks]{Aggregate computing}
-%/////////
-
 
 
 \end{frame}
 %/////////
 
-\begin{comment}
-%/////////
-\begin{frame}[allowframebreaks]{Learning from experience}
-%/////////
-\begin{block}{Reinforcement learning}
-	\begin{itemize}
-		\item An \emph{agent} interacts with an \emph{environment} through \emph{actions};
-		\item The environment provides a feedback signal (i.e., the \emph{reward});
-		\item Agent goal: learn the optimal \emph{policy} to maximize some long-run measure of reinforcement.
-	\end{itemize}
-\end{block}
-
-\centering
-\includegraphics[width=0.6\textwidth]{img/rl.png}
-
-\begin{alertblock}{Algorithms}
-	\begin{itemize}
-		\item \textbf{Value-based}: aim to learn a value function that evaluates the goodness of each possible action from every 
-				state in the environment (e.g., \emph{Q-Learning} \cite{dayan1992q}, \emph{DQN} \cite{mnih2013playing});
-		\item \textbf{Policy-based}: aim to directly learn a behavioural policy (i.e., a state-action mapping) without
-			utilizing an intermediate value function (e.g., \emph{Proximal Policy Optimization (PPO)} \cite{schulman2017proximal}).
-	\end{itemize}
-\end{alertblock}
-
-\begin{alertblock}{Multi-Agent Reinforcement Learning}
-	\begin{itemize}
-		\item Extension of classic RL to multi-agent systems;
-		\item Very promising field, but it introduces several challenges that need to be addressed, for example:
-			 non-stationarity and equilibrium among the various policies.
-	\end{itemize}
-\end{alertblock}
-
-\begin{alertblock}{Training mode}
-	Based on information available to agents during training and execution phases we can classify 
-		MARL algorithms into three families:
-	\begin{itemize}
-		\item Centralized Training and Centralized Execution (CTCE);
-		\item Decentralized Training and Decentralized Execution (DTDE);
-		\item Centralized Training and Decentralized Execution (CTDE).
-	\end{itemize}
-\end{alertblock}
-
-\begin{alertblock}{Tasks}
-	\begin{itemize}
-		\item \textbf{Cooperative}: agents cooperate to maximize a global reward (we focus on this);
-		\item Competitive: agents compete to maximize their own reward;
-		\item Mixed: agents cooperate and compete at the same time.
-	\end{itemize}
-\end{alertblock}
-
-\end{frame}
-%/////////
-\end{comment}
 
 %/////////
-\begin{frame}[allowframebreaks]{Learning from experience}
+%\begin{frame}[allowframebreaks]{Learning from experience}
+%/////////
+% \begin{block}{Reinforcement learning}
+% 	\begin{itemize}
+% 		\item An \emph{agent} interacts with an \emph{environment} through \emph{actions};
+% 		\item The environment provides a feedback signal (i.e., the \emph{reward});
+% 		\item Agent goal: learn the optimal \emph{policy} to maximize some long-run measure of reinforcement.
+% 	\end{itemize}
+% \end{block}
+
+% \centering
+% \includegraphics[width=0.6\textwidth]{img/rl.png}
+
+% \begin{alertblock}{Algorithms}
+% 	\begin{itemize}
+% 		\item \textbf{Value-based}: aim to learn a value function that evaluates the goodness of each possible action from every 
+% 				state in the environment (e.g., \emph{Q-Learning} \cite{dayan1992q}, \emph{DQN} \cite{mnih2013playing});
+% 		\item \textbf{Policy-based}: aim to directly learn a behavioural policy (i.e., a state-action mapping) without
+% 			utilizing an intermediate value function (e.g., \emph{Proximal Policy Optimization (PPO)} \cite{schulman2017proximal}).
+% 	\end{itemize}
+% \end{alertblock}
+
+% \begin{alertblock}{Multi-Agent Reinforcement Learning}
+% 	\begin{itemize}
+% 		\item Extension of classic RL to multi-agent systems;
+% 		\item Very promising field, but it introduces several challenges that need to be addressed, for example:
+% 			 non-stationarity and equilibrium among the various policies.
+% 	\end{itemize}
+% \end{alertblock}
+
+% \begin{alertblock}{Training mode}
+% 	Based on information available to agents during training and execution phases we can classify 
+% 		MARL algorithms into three families:
+% 	\begin{itemize}
+% 		\item Centralized Training and Centralized Execution (CTCE);
+% 		\item Decentralized Training and Decentralized Execution (DTDE);
+% 		\item Centralized Training and Decentralized Execution (CTDE).
+% 	\end{itemize}
+% \end{alertblock}
+
+% \begin{alertblock}{Tasks}
+% 	\begin{itemize}
+% 		\item \textbf{Cooperative}: agents cooperate to maximize a global reward (we focus on this);
+% 		\item Competitive: agents compete to maximize their own reward;
+% 		\item Mixed: agents cooperate and compete at the same time.
+% 	\end{itemize}
+% \end{alertblock}
+
+% \end{frame}
+%/////////
+
+
+
+%/////////
+\begin{frame}[c]{Learning from experience}
 %/////////
 
 \begin{block}{Reinforcement learning}
@@ -249,7 +271,7 @@
 %/////////
 
 %/////////
-\begin{frame}[allowframebreaks]{Graph Neural Networks}
+\begin{frame}[c]{Graph Neural Networks}
 %/////////
 
 \begin{block}{Why}
@@ -278,24 +300,23 @@
 	\end{column}
 \end{columns}
 
+% \begin{alertblock}{Computational model}
+% 	\begin{itemize}
+% 		\item There exists multiple variants of GNNs, but they all share the same basic structure composed of two phases;
+% 		\item \textbf{Aggregate}
+% 		\begin{itemize}
+% 			\item Aggregation of information from neighbours;
+% 			\item Usually, it is a simple function that performs a graph convolution on the neighbours;
+% 		\end{itemize}
+% 		\item \textbf{Combine}
+% 		\begin{itemize}
+% 			\item Combination of the aggregated information with the information present in the 
+% 				node at the previous time step;
+% 			\item Usually, it is a a differentiable complex function, such as a layer of a neural network.
+% 		\end{itemize}
+% 	\end{itemize}
+% \end{alertblock}
 
-\begin{alertblock}{Computational model}
-	\begin{itemize}
-		\item There exists multiple variants of GNNs, but they all share the same basic structure composed of two phases;
-		\item \textbf{Aggregate}
-		\begin{itemize}
-			\item Aggregation of information from neighbours;
-			\item Usually, it is a simple function that performs a graph convolution on the neighbours;
-		\end{itemize}
-		\item \textbf{Combine}
-		\begin{itemize}
-			\item Combination of the aggregated information with the information present in the 
-				node at the previous time step;
-			\item Usually, it is a a differentiable complex function, such as a layer of a neural network.
-		\end{itemize}
-	\end{itemize}
-\end{alertblock}
-	
 \end{frame}
 %/////////
 
@@ -306,7 +327,7 @@
 %===============================================================================
 
 %/////////
-\begin{frame}[allowframebreaks]{Project description}
+\begin{frame}[c]{Project description}
 
 \begin{block}{Problems}
 	\begin{itemize}
@@ -314,22 +335,24 @@
 			has some drawbacks:
 		\begin{itemize}
 			\item It is highly challenging to write satisfactory and efficient programs;
-			\item Programs may be error-prone;
-			\item Programs may lack of generality;
+			\item Programs may be error-prone and lack of generality;
+			%\item Programs may 
 		\end{itemize}
-		\item AI approaches also present challenges, for example:
-		\begin{itemize}
-			\item Non-stationarity;
-			\item Communication;
-			\item Scalability.
-		\end{itemize}
+		\item AI approaches also present challenges 
+			(e.g., non-stationarity);
+		%, for example:
+		%\begin{itemize}
+		%	\item Non-stationarity;
+		%	\item Communication;
+		%	\item Scalability.
+		%\end{itemize}
 	\end{itemize}
 \end{block}
 	
 \begin{alertblock}{Proposed approach}
 	\begin{itemize}
 		\item \emph{Hybrid approach}: combination of aggregate computing and AI;
-		\item Achieve a \emph{toolchain} that enables agile development and prototyping of these systems;
+		\item Achieve a \emph{toolchain} that enables agile development of these systems;
 		\item Advantages:
 		\begin{itemize}
 			\item Reducing the complexity of learning;
@@ -366,25 +389,25 @@
 %/////////
 
 %/////////
-\begin{frame}[c]{Scope}
+% \begin{frame}[c]{Scope}
 
-\begin{block}{Scope}
-	\begin{itemize}
-		\item \emph{Distributed AI}: integration with CPSW will bring forth several challenges that contribute
-		to this field, for example:
-		\begin{itemize}
-			\item Continuous learning: ensure that agents can not only learn during the initial phase but also
-				refine their knowledge online once they have been deployed;
-		\end{itemize}
-		\item \emph{Swarm robotics}: automatic design of controllers for swarm of robots;
-		\item \emph{Software engineering}: development of novel models, 
-			design techniques, languages, and algorithms that can be utilized to
-			effectively handle the complexity of CPSW.
-	\end{itemize}
-\end{block}
+% \begin{block}{Scope}
+% 	\begin{itemize}
+% 		\item \emph{Distributed AI}: integration with CPSW will bring forth several challenges that contribute
+% 		to this field, for example:
+% 		\begin{itemize}
+% 			\item Continuous learning: ensure that agents can not only learn during the initial phase but also
+% 				refine their knowledge online once they have been deployed;
+% 		\end{itemize}
+% 		\item \emph{Swarm robotics}: automatic design of controllers for swarm of robots;
+% 		\item \emph{Software engineering}: development of novel models, 
+% 			design techniques, languages, and algorithms that can be utilized to
+% 			effectively handle the complexity of CPSW.
+% 	\end{itemize}
+% \end{block}
 
 
-\end{frame}
+%\end{frame}
 %/////////
 
 %/////////
@@ -398,36 +421,30 @@
 %/////////
 \begin{frame}[c]{Expected results I}
 
-\begin{block}{One year goal}
-	\begin{itemize}
-		\item Analysis of state-of-the-art AI techniques
-			for the domain of CPSW;
-		\item Hybrid tool-chain: integration of AC and AI in simulation and with
-		offline learning;
-		\item Implementation of custom RL and GNNs models
-		and algorithms.
-	\end{itemize}
-\end{block}
+% \begin{block}{One year goal}
+% 	\begin{itemize}
+% 		\item Analysis of state-of-the-art AI techniques
+% 			for the domain of CPSW;
+% 		\item Hybrid tool-chain: integration of AC and AI in simulation and with
+% 		offline learning;
+% 		\item Implementation of custom RL and GNNs models
+% 		and algorithms.
+% 	\end{itemize}
+% \end{block}
 
-\begin{alertblock}{PhD goal}
+\begin{block}{PhD goal}
 	\begin{itemize}
-		\item Hybrid tool-chain extension:
-		\begin{itemize}
-			\item Opportunistic deployment;
-			\item Online learning; 
-			\item Continuous learning to refine agents knowledge;
-		\end{itemize}
+		\item Hybrid tool-chain;
+		%\begin{itemize}
+		%	\item Opportunistic deployment;
+		%	\item Online learning; 
+		%	\item Continuous learning to refine agents knowledge;
+		%\end{itemize}
 		\item Privacy: management of learning with sensitive data 
 			(e.g., through federated learning);
 		\item Development of application examples using the new platform.
 	\end{itemize}
-\end{alertblock}
-
-\end{frame}
-%/////////
-
-%/////////
-\begin{frame}[c]{Expected results II}
+\end{block}
 
 \begin{alertblock}{Long term contributions}
 	\begin{itemize}
@@ -439,14 +456,37 @@
 		\item Understand the extent to which these CPSWs can 
 			become mainstream in modern contexts, such as:
 		\begin{itemize}
-			\item Large-scale IoT;
-			\item Industry 4.0;
+			\item Large-scale IoT and Industry 4.0;
+			%\item Industry 4.0;
 			\item Swarms of robots for exploring inhospitable environments for humans.
 		\end{itemize}
 	\end{itemize}
 \end{alertblock}
 
 \end{frame}
+%/////////
+
+%/////////
+% \begin{frame}[c]{Expected results II}
+
+% \begin{alertblock}{Long term contributions}
+% 	\begin{itemize}
+% 		\item Bridge the worlds of symbolic and sub-symbolic AI;
+% 		\begin{itemize}
+% 			\item Computational fields can be interpreted as a symbolic model 
+% 				of the surrounding environment and interactions among agents;
+% 		\end{itemize}
+% 		\item Understand the extent to which these CPSWs can 
+% 			become mainstream in modern contexts, such as:
+% 		\begin{itemize}
+% 			\item Large-scale IoT;
+% 			\item Industry 4.0;
+% 			\item Swarms of robots for exploring inhospitable environments for humans.
+% 		\end{itemize}
+% 	\end{itemize}
+% \end{alertblock}
+
+% \end{frame}
 
 %===============================================================================
 \section*{}
