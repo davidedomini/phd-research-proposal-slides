@@ -1,12 +1,12 @@
 # Fdb version 3
-["biber main"] 1689106275 "main.bcf" "main.bbl" "main" 1689106496
+["biber main"] 1689106275 "main.bcf" "main.bbl" "main" 1689106821
   "bibliography.bib" 1688318565 6417 43fa8acd6288e83b3f846938f314272c ""
-  "main.bcf" 1689106496 108264 2f0b3d6690d02e3c99d33ca6e13841b9 "pdflatex"
+  "main.bcf" 1689106821 108264 2f0b3d6690d02e3c99d33ca6e13841b9 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1689106493 "/Users/davidedomini/Desktop/phd-research-proposal-slides/main.tex" "main.pdf" "main" 1689106496
-  "/Users/davidedomini/Desktop/phd-research-proposal-slides/main.tex" 1689106493 17829 cbc26e9194af71f625ea04a4e1705285 ""
+["pdflatex"] 1689106819 "/Users/davidedomini/Desktop/phd-research-proposal-slides/main.tex" "main.pdf" "main" 1689106821
+  "/Users/davidedomini/Desktop/phd-research-proposal-slides/main.tex" 1689106818 17849 28db515edff43d35269805576b8a0d22 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/jknappen/ec/ecsi0600.tfm" 1136768653 3584 812f7e2de5681b983f3aeaadd29c79b6 ""
@@ -264,14 +264,14 @@
   "img/channel.png" 1689105135 165806 f8049d9b20a39e321b50995381adea3b ""
   "img/gnn.png" 1688228171 466537 fc516b205b722b8772c5985263846ebb ""
   "img/rl.png" 1688222682 150020 9f537bd2e2a12312133d99f1f88dba33 ""
-  "main.aux" 1689106496 6896 ffc35b7ae9f2b65cc93dfb5c09eda40d "pdflatex"
+  "main.aux" 1689106821 6896 ffc35b7ae9f2b65cc93dfb5c09eda40d "pdflatex"
   "main.bbl" 1689106277 32588 cba9e8effaf3e4bdfe5e4367f3d985fc "biber main"
-  "main.nav" 1689106496 2795 f13a2a73437f72bfab03d3c394a34827 "pdflatex"
-  "main.out" 1689106496 675 d523c30838351b98c08ca4b211629acc "pdflatex"
-  "main.run.xml" 1689106496 2310 47e67dca11311fb26308920abbf39815 "pdflatex"
-  "main.tex" 1689106493 17829 cbc26e9194af71f625ea04a4e1705285 ""
-  "main.toc" 1689106496 155 8e6b36c4cbf9bf76df2341a692f5ba76 "pdflatex"
-  "main.vrb" 1689106495 1528 42fd3c5e8ce2dfde1a4cea740194bf9b "pdflatex"
+  "main.nav" 1689106821 2795 f13a2a73437f72bfab03d3c394a34827 "pdflatex"
+  "main.out" 1689106821 675 d523c30838351b98c08ca4b211629acc "pdflatex"
+  "main.run.xml" 1689106821 2310 47e67dca11311fb26308920abbf39815 "pdflatex"
+  "main.tex" 1689106818 17849 28db515edff43d35269805576b8a0d22 ""
+  "main.toc" 1689106821 155 8e6b36c4cbf9bf76df2341a692f5ba76 "pdflatex"
+  "main.vrb" 1689106820 1528 42fd3c5e8ce2dfde1a4cea740194bf9b "pdflatex"
   "scala-def.tex" 1689106438 1437 f38dcc7aa52cbd59f400a666eb33396c ""
   (generated)
   "main.aux"
