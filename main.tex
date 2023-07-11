@@ -17,6 +17,9 @@
 \usepackage{fancyvrb}
 \usepackage[ddmmyyyy]{datetime}
 \usepackage{comment}
+\usepackage{listings}
+\input{scala-def}
+\lstset{language=scafi}
 \renewcommand{\dateseparator}{}
 %\renewcommand{\thefootnote}{\fnsymbol{footnote}}
 \newcommand{\version}{1}
@@ -152,7 +155,7 @@
 
 
 %/////////
-\begin{frame}[c]{Aggregate computing}
+\begin{frame}[allowframebreaks, fragile]{Aggregate computing}
 %/////////
 \begin{columns}
 	\begin{column}{0.55\textwidth}
@@ -179,6 +182,27 @@
 	 	\end{itemize}
 \end{alertblock}
 
+\begin{columns}
+	\begin{column}{0.5\textwidth}
+		\begin{exampleblock}{Pratical example: the channel}
+			\begin{itemize}
+				\item We want a \emph{channel} from a given source to a given destination;
+				\item Here the \emph{aggregate} nature of our approach gets revealed.
+			\end{itemize}
+		\end{exampleblock}
+	\end{column}
+	\begin{column}{0.5\textwidth}
+		\includegraphics[width=\textwidth]{img/channel.png}
+	\end{column}
+\end{columns}
+
+\centering
+
+\begin{lstlisting}
+def channel(source: Boolean, dest: Boolean, width: Double): Double {
+   dilate(gradient(source) + gradient(dest) <= distance(source,dest), width)
+}
+\end{lstlisting}
 
 \end{frame}
 %/////////
