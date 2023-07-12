@@ -1,12 +1,12 @@
 # Fdb version 3
-["biber main"] 1689108552 "main.bcf" "main.bbl" "main" 1689108558
+["biber main"] 1689108552 "main.bcf" "main.bbl" "main" 1689147476
   "bibliography.bib" 1689108552 6136 fd1bf6f9ce57045e0b3d5ad05290d3ef ""
-  "main.bcf" 1689108558 108264 2f0b3d6690d02e3c99d33ca6e13841b9 "pdflatex"
+  "main.bcf" 1689147476 108264 2f0b3d6690d02e3c99d33ca6e13841b9 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1689108556 "/Users/davidedomini/Desktop/phd-research-proposal-slides/main.tex" "main.pdf" "main" 1689108558
-  "/Users/davidedomini/Desktop/phd-research-proposal-slides/main.tex" 1689108520 17880 d032531da028eca2f5c52ca94cb01024 ""
+["pdflatex"] 1689147474 "/Users/davidedomini/Desktop/phd-research-proposal-slides/main.tex" "main.pdf" "main" 1689147476
+  "/Users/davidedomini/Desktop/phd-research-proposal-slides/main.tex" 1689147474 18400 3f14b77904109444944172e1f25df60d ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/jknappen/ec/ecsi0600.tfm" 1136768653 3584 812f7e2de5681b983f3aeaadd29c79b6 ""
@@ -279,14 +279,18 @@
   "img/channel.png" 1689105135 165806 f8049d9b20a39e321b50995381adea3b ""
   "img/gnn.png" 1688228171 466537 fc516b205b722b8772c5985263846ebb ""
   "img/rl.png" 1688222682 150020 9f537bd2e2a12312133d99f1f88dba33 ""
-  "main.aux" 1689108558 6896 1289ee84316b458d1a18bb4754ffaee4 "pdflatex"
+  "img/smartcity2.jpeg" 1689147383 442088 14482ca2218ec0979a81b637bb2c0ff1 ""
+  "img/swarm1.jpeg" 1689146935 195939 458101b8140590a83e108b2001ab91a9 ""
+  "img/swarm2.jpeg" 1689147013 40139 a9704c2b8516b0adc52d76ea62e667ea ""
+  "img/swarm3.jpeg" 1689147084 77660 4ae2707818264e2e2ce1b72244486f58 ""
+  "main.aux" 1689147476 7024 da3792ef08924222b7249aebbca95120 "pdflatex"
   "main.bbl" 1689108554 32165 a61869bdc37ae99bdbb9d4bb50d1474c "biber main"
-  "main.nav" 1689108558 2795 f13a2a73437f72bfab03d3c394a34827 "pdflatex"
-  "main.out" 1689108558 675 d523c30838351b98c08ca4b211629acc "pdflatex"
-  "main.run.xml" 1689108558 2310 47e67dca11311fb26308920abbf39815 "pdflatex"
-  "main.tex" 1689108520 17880 d032531da028eca2f5c52ca94cb01024 ""
-  "main.toc" 1689108558 155 8e6b36c4cbf9bf76df2341a692f5ba76 "pdflatex"
-  "main.vrb" 1689108557 1528 42fd3c5e8ce2dfde1a4cea740194bf9b "pdflatex"
+  "main.nav" 1689147476 2887 5775da884016aba5f2f8021792cbceb0 "pdflatex"
+  "main.out" 1689147476 675 d523c30838351b98c08ca4b211629acc "pdflatex"
+  "main.run.xml" 1689147476 2310 47e67dca11311fb26308920abbf39815 "pdflatex"
+  "main.tex" 1689147474 18400 3f14b77904109444944172e1f25df60d ""
+  "main.toc" 1689147476 155 eb2496e3bcccdf565cc2159423bad784 "pdflatex"
+  "main.vrb" 1689147475 1528 42fd3c5e8ce2dfde1a4cea740194bf9b "pdflatex"
   "scala-def.tex" 1689106438 1437 f38dcc7aa52cbd59f400a666eb33396c ""
   (generated)
   "main.aux"
